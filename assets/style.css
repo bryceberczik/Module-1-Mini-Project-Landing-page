@@ -54,18 +54,10 @@ section h2 {
 
 form {
 
-    display: flex;
-    width: 50%;
-    margin-left: 350px;
     padding: 15px;
     border: 5px solid #E5BD79;
     border-radius: 20px;
     display: block;
-}
-
-input {
-
-    width: 60%;
 }
 
 button {
@@ -76,7 +68,8 @@ button {
     width: 125px;
 }
 
-footer {
+
+footer  {
 
     background-color: #266150;
     color: white;
