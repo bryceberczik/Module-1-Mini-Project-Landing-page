@@ -1,28 +1,49 @@
 * {
+
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
 body {
+
     font-family: "Goudy Bookletter 1911", sans-serif;
+    color: #4F4846;
 }
 nav ul li {
 
     display: inline;
     list-style: none;
-    margin: 20px;
+    margin: 15px;
+    padding-right: 20px;
 }
 
 li {
     font-size: 23px;
 }
-nav {
 
+main {
+    padding-top: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: #FDF8F5;
+}
+
+header {
+    
+    width: 100%;
+    display: block;
     background-color: #266150;
     color: white;
     padding: 20px;
-    border-bottom: 10px solid #E5BD79;
+    border-bottom: 10px solid #DDAF94;
+    position: fixed;
+}
+
+nav {
+    display: block;
 }
 
 section h1 {
@@ -38,7 +59,7 @@ section p {
 
     padding-top: 20px;
     padding-bottom: 45px;
-    border-bottom: 4px solid #E5BD79;
+    border-bottom: 4px solid #DDAF94;
 }
 
 p {
@@ -54,16 +75,25 @@ section h2 {
 
 form {
 
-    padding: 15px;
-    border: 5px solid #E5BD79;
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #DDAF94;
     border-radius: 20px;
-    display: block;
 }
+
+input, textarea {
+
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4F4846;
+}
+
 
 button {
 
-    background-color: brown;
-    color: white;
+    background-color: #4F4846;
+    color: #FDF8F5;
     height: 40px;
     width: 125px;
 }
@@ -72,7 +102,7 @@ button {
 footer  {
 
     background-color: #266150;
-    color: white;
+    color: #FDF8F5;
     padding: 25px 0;
     font-size: 20px;
 }
@@ -93,6 +123,6 @@ footer  {
 
 #contact {
 
-    background-color: #E3A990;
+    background-color: #E8CEBF;
     padding: 45px 0;
 }
